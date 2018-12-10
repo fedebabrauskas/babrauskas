@@ -1,0 +1,12 @@
+{
+  "name": "babrauskas",
+  "version": "1.0.0",
+  "description": "My basic info in a npm package :)",
+  "main": "info.json",
+  "repository": "https://github.com/fedebabrauskas/babrauskas.git",
+  "author": "fedebabrauskas <fedebabrauskas@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "node -e \"console.log(require('babrauskas'))\""
+  }
+}
